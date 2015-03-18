@@ -3,7 +3,7 @@ Contributors: JumpDEMAND Inc.
 Requires at least: 2.8
 Tested up to: 3.4.2
 Stable tag: 0.0.1
-The easy way to integrate ActiveDEMAND
+The easy way to integrate <a href="https://www.activedemand.com">ActiveDEMAND</a>
 
 == Description ==
 Adds ActiveDEMAND tracking script to your website
