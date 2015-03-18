@@ -1,12 +1,14 @@
 === ActiveDEMAND ===
-Contributors: JumpDEMAND Inc.
+Contributors: JumpDEMAND Inc.
+Tags: tracking script, plugin
 Requires at least: 2.8
-Tested up to: 3.4.2
+Tested up to: 4.1
 Stable tag: 0.0.1
-The easy way to integrate <a href="https://www.activedemand.com">ActiveDEMAND</a>
+
+The easy way to integrate <a href="https://www.activedemand.com">ActiveDEMAND</a>
 
 == Description ==
-Adds ActiveDEMAND tracking script to your website
+Adds <a href="https://www.activedemand.com">ActiveDEMAND</a> tracking script to your website
 
 
 == Installation ==
