@@ -15,4 +15,4 @@ Stable tag: 0.0.1
 == Changelog ==
 
 = 0.0.1 = 
-Intitial release
+Initial release
