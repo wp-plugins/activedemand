@@ -8,7 +8,7 @@ Stable tag: 0.0.1
 The easy way to integrate <a href="https://www.activedemand.com">ActiveDEMAND</a>
 
 == Description ==
-Adds <a href="https://www.activedemand.com">ActiveDEMAND</a> tracking script to your website
+Adds the <a href="https://www.activedemand.com">ActiveDEMAND</a> tracking script to your website
 
 
 == Installation ==
