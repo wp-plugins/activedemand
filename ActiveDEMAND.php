@@ -37,7 +37,21 @@ function activedemand_getHTML($url,$timeout)
     curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true); // follow redirects if any
     curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, $timeout); // max. seconds to execute
     curl_setopt($ch, CURLOPT_FAILONERROR, 1); // stop when it encounters an error
-    return @curl_exec($ch);
+    curl_setopt($ch, CURLOPT_IPRESOLVE, CURL_IPRESOLVE_V4 );//force IP4
+    $result=curl_exec($ch);
+ /**   if(curl_exec($ch) === false)
+    {
+        echo 'Curl error: ' . curl_error($ch);
+    }
+    else
+    {
+        echo 'Operation completed without any errors';
+    }
+*/
+    curl_close($ch);
+
+
+    return $result;
 }
 function activedemand_process_form_shortcode( $atts,$content=null ) {
 //[activedemand_form id='123']
@@ -47,11 +61,9 @@ function activedemand_process_form_shortcode( $atts,$content=null ) {
     $options = get_option('activedemand_options_field');
     $activedemand_appkey = $options["activedemand_appkey"];
 
-    $form_str="";
-    if (is_numeric($id)) {
-        //get form html
-        $form_str = activedemand_getHTML("https://api.activedemand.com/v1/forms/".$id."?api-key=".$activedemand_appkey."", 4000);
 
+    if (is_numeric($id)) {
+            $form_str = activedemand_getHTML("https://api.activedemand.com/v1/forms/".$id."?api-key=".$activedemand_appkey."", 4000);
     }
 
 
@@ -81,7 +93,7 @@ function activedemand_plugin_options() {
         The <a href="https://www.ActiveDEMAND.com">ActiveDEMAND</a> plugin adds a tracking script to your WordPress pages. As well this plugin offers the ability to use form shortcodes on your pages, posts, and sidebars that will render an ActiveDEMAND Web Form. This allows you to maintain your form styling and configuration within ActiveDEMAND
             and keep your WordPress site in sync with your ActiveDEMAND account<br/>
             <p>
-            The format of the shortcode is <strong>[activedemand_form id="&lt;id&gt;"]</strong>.</p>
+            The format of the shortcode is <strong>[activedemand_form id=&apos;&lt;id&gt;&apos;]</strong>.</p>
         </p>
         <p>You can find the form ID for your ActiveDEMAND Web Form on the Web Form section of ActiveDEMAND:<br/>
             <p>
