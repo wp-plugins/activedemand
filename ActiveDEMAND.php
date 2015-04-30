@@ -3,7 +3,7 @@
  * Plugin Name: ActiveDEMAND
  * Plugin URI: https://www.activedemand.com/
  * Description: This adds <a href="https://www.activedemand.com">ActiveDEMAND</a> integration to your website
- * Version: 0.0.2
+ * Version: 0.0.3
  * Author: JumpDEMAND Inc.
  * Author URI: https://www.ActiveDEMAND.com                                                   
  * License:GPL-2.0+
