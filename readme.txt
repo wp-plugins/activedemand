@@ -8,7 +8,7 @@ Stable tag: 0.0.4
 The easy way to integrate <a href="https://www.activedemand.com">ActiveDEMAND</a>
 
 == Description ==
-Adds the <a href="https://www.activedemand.com">ActiveDEMAND</a> tracking script to your website
+Adds the <a href="https://www.activedemand.com">ActiveDEMAND</a> tracking script to your website. As well this plugin gives you the ability to use shortcodes to embed ActiveDEMAND webforms into your widgets, pages, posts, and sidebars.
 
 
 == Installation ==
