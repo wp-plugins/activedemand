@@ -5,7 +5,7 @@ Requires at least: 2.8
 Tested up to: 4.2.1
 Stable tag: 0.0.4
 
-The easy way to integrate <a href="https://www.activedemand.com">ActiveDEMAND</a>
+<a href="https://www.activedemand.com">ActiveDEMAND</a>, the easy way to add Web Forms to your WordPress site.
 
 == Description ==
 Adds the <a href="https://www.activedemand.com">ActiveDEMAND</a> tracking script to your website. As well this plugin gives you the ability to use shortcodes to embed ActiveDEMAND webforms into your widgets, pages, posts, and sidebars.
