@@ -45,7 +45,7 @@ function activedemand_getHTML($url, $timeout)
     curl_setopt($ch, CURLOPT_IPRESOLVE, CURL_IPRESOLVE_V4);//force IP4
     $result = curl_exec($ch);
     if (curl_exec($ch) === false) {
-        echo 'Curl error: ' . curl_error($ch);
+        echo 'Connection Error: ' . curl_error($ch);
     }
 
     curl_close($ch);
