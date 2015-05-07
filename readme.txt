@@ -3,7 +3,7 @@ Contributors: JumpDEMAND Inc.
 Tags: tracking script, plugin, webforms, click to call, Web Forms, Contact Form, marketing, web form creator, webform, form builder
 Requires at least: 2.8
 Tested up to: 4.2.1
-Stable tag: 0.0.4
+Stable tag: 0.0.5
 
 <a href="https://www.activedemand.com">ActiveDEMAND</a>, the easy way to add Web Forms to your WordPress site.
 
@@ -14,7 +14,8 @@ Stable tag: 0.0.4
 == Installation ==
 1. Install the plugin from within the Dashboard or upload the directory `activedemand` and all its contents to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
-== Changelog ==
+== Changelog ==
+= 0.0.5 = Added Form List
 = 0.0.4 = Minor updates to code
 = 0.0.3 = Added Web Form shortcodes
 = 0.0.2 = Added compression
