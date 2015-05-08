@@ -22,3 +22,7 @@ Stable tag: 0.0.6
 = 0.0.2 = Added compression
 = 0.0.1 = 
 Initial release
+== Screenshots ==
+1. Build Your Form in ActiveDEMAND -> screenshot-1.png
+2. Configure in Wordpress -> screenshot-2.png
+3. Insert your shortcode -> screenshot-3.png
