@@ -15,6 +15,7 @@ Stable tag: 0.0.6
 1. Install the plugin from within the Dashboard or upload the directory `activedemand` and all its contents to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 == Changelog ==
+= 0.0.6 = Added Form shortcode button
 = 0.0.5 = Added Form List
 = 0.0.4 = Minor updates to code
 = 0.0.3 = Added Web Form shortcodes
