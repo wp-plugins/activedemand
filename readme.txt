@@ -1,6 +1,6 @@
 === ActiveDEMAND ===
 Contributors: JumpDEMAND Inc.
-Tags: tracking script, plugin, webforms, click to call, Web Forms, Contact Form, marketing, web form creator, webform, form builder
+Tags: tracking script, plugin, webforms, click to call, Web Forms, Contact Form, marketing, web form creator, webform, form builder, call tracking
 Requires at least: 2.8
 Tested up to: 4.2.1
 Stable tag: 0.0.6
