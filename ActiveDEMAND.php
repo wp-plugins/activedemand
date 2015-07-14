@@ -3,7 +3,7 @@
  * Plugin Name: ActiveDEMAND
  * Plugin URI: https://www.activedemand.com/
  * Description: Adds the <a href="https://www.activedemand.com">ActiveDEMAND</a> tracking script to your website. As well this plugin gives you the ability to use shortcodes to embed ActiveDEMAND webforms into your widgets, pages, posts, and sidebars.
- * Version: 0.1.0
+ * Version: 0.1.1
  * Author: JumpDEMAND Inc.
  * Author URI: https://www.ActiveDEMAND.com
  * License:GPL-2.0+
